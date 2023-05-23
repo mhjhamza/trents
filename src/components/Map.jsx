@@ -276,7 +276,7 @@ const Map = ({coord}) => {
   
   return (
     <LoadScript
-        googleMapsApiKey={process.env.REACT_APP_MAP_KEY}
+        googleMapsApiKey={import.meta.env.VITE_APP_MAP_KEY}
       >
       <GoogleMap
           mapContainerStyle={containerStyle}
