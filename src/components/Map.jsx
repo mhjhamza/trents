@@ -276,7 +276,11 @@ const Map = ({coord}) => {
   
   return (
     <LoadScript
+<<<<<<< HEAD
         googleMapsApiKey={import.meta.env.VITE_APP_MAP_KEY}
+=======
+        googleMapsApiKey="AIzaSyCwKUscYTA4uDb5KhSloEAck9A7ZI0Hz34"
+>>>>>>> main
       >
       <GoogleMap
           mapContainerStyle={containerStyle}

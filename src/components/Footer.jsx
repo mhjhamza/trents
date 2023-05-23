@@ -17,7 +17,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
+                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Industry Trends
               </NavLink>
@@ -30,7 +30,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
+                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Job Trends
               </NavLink>
@@ -43,7 +43,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
+                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Programs
               </NavLink>
