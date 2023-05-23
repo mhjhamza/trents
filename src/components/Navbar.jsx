@@ -73,7 +73,7 @@ const Navbar = () => {
           <RxHamburgerMenu />
         </div>
       </motion.nav>
-
+      {/*Mobile View*/}
       <div
         className={`${
           menu ? "top-0" : "top-[-490px]"
