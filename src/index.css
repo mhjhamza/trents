@@ -7,3 +7,13 @@ a.active::before {
     width: 100%;
 }
 
+/* hide scrollbar but allow scrolling */
+.bar {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.bar::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}

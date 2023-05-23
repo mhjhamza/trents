@@ -4,11 +4,11 @@ import { Link as NavLink } from "react-scroll";
 const Footer = () => {
   return (
     <div className='text-card bg-text mt-16'>
-    <div className="container py-4 mx-auto flex justify-between items-center max-lg:px-4 py-8">
-        <h1 className="mt-1 text-3xl font-bold">jobtrends | maeser</h1>
+    <div className="container py-4 mx-auto flex justify-between items-center max-lg:px-4 py-8 max-sm:justify-center max-sm:flex-col">
+        <h1 className="mt-1 text-3xl font-bold max-sm:mb-8">jobtrends.</h1>
 
-        <div className="hidden md:flex items-center font-medium text-lg">
-          <ul className="flex space-x-12 relative max-lg:space-x-2 max-lg:text-sm">
+        <div className="flex items-center font-medium text-lg max-xs:justify-center">
+          <ul className="flex space-x-12 relative max-xs:flex-col max-xs:justify-center max-xs:items-center max-xs:space-x-0 max-xs:space-y-2 max-xs:text-base">
           <li>
               <NavLink
                 activeClass="active"

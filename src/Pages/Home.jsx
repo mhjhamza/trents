@@ -10,13 +10,14 @@ const Home = () => {
   const [city,setCity] = useState("Mexico City, Mexico")
   const callback = payload => {
     setCity(payload)
-    console.log(payload)
   }
   return (
-    <div className="bg-bg text-text">
-      <Navbar />
-      <Hero callback={callback}/>
-      <IndustryTrend city={city}/>
+    <div className="bg-bg text-text relative">
+      <Navbar/>
+      <div id="home">
+        <Hero callback={callback}/>
+        <IndustryTrend city={city}/>
+      </div>
       <Region city={city}/>
       <Topics city={city}/>
       <Footer/>
