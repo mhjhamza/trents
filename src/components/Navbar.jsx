@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
-<<<<<<< HEAD
-import {Link} from "react-router-dom"
-=======
->>>>>>> main
+import { Link } from "react-router-dom";
 import { Link as NavLink } from "react-scroll";
 
 const Navbar = () => {
@@ -96,11 +93,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-<<<<<<< HEAD
-                className='font-medium active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
-=======
-                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
->>>>>>> main
+                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Industry Trends
               </NavLink>
@@ -113,11 +106,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-<<<<<<< HEAD
-                className='font-medium active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
-=======
-                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
->>>>>>> main
+                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Job Trends
               </NavLink>
@@ -130,11 +119,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-<<<<<<< HEAD
-                className='font-medium active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
-=======
-                className='relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
->>>>>>> main
+                className='active:before:w-full relative before:content-[""] before:absolute before:-bottom-[5px] hover:before:w-full before:w-0 before:h-[3px] before:rounded before:bg-primary before:transition-all before:duration-300'
               >
                 Programs
               </NavLink>
